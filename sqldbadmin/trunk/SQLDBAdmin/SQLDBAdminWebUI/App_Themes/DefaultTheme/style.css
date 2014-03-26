@@ -1,0 +1,158 @@
+﻿body
+{
+	font-family: Tahoma, Arial, Geneva, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #F3F3F3;
+}
+a
+{
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a:hover
+{
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+a:visited
+{
+	font-size: 12px;
+	text-decoration: none;
+}
+.textQuery
+{
+	color: Blue;
+	height: 200px;
+	width: 99%;
+	border: 1px solid #000000;
+	background: url(img/app/scriptline.gif) repeat 1px 1px;
+	font-size: 12px;
+}
+.errorMsg
+{
+	color: Red;
+	font-size: 12px;
+}
+.queryPageContainer
+{
+	background-color: #F3F3F3;
+	width: 99%;
+	height: 100%;
+	padding: 5px;
+}
+.button
+{
+	font-size: 12px;
+}
+.dropdownstyle
+{
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: middle;
+	border: solid 1px #a2a2a2;
+}
+.waterMark
+{
+	height: 200px;
+	width: 99%;
+	border: 1px solid #000000;
+	background: url(img/app/scriptline.gif) repeat 1px 1px;
+	font-size: 12px;
+	font-style: italic;
+	color: Gray;
+}
+.gridView
+{
+	padding: 3px;
+	text-align: left;
+}
+.gridView td
+{
+	text-align: inherit;
+	border: solid 1px #acc6d5;
+	color: #000000;
+	padding: 2px;
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	font-style: normal;
+	font-weight: normal;
+}
+.gridView td hover
+{
+	text-align: left;
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #fe2318;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+.gridView th
+{
+	border: solid 1px #acc6d5;
+	text-align: left;
+	color: #000000;
+	padding: 3px;
+}
+.evenRow
+{
+	background-color: #ffffff;
+}
+.oddRow
+{
+	background-color: #f4f6f7;
+}
+.topPageBody
+{
+	background-color: #FCFCFC;
+}
+.topHeading
+{
+	height:50px;
+}
+.modalPopupBackground
+{
+	background-color: #000000;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+.fileUpload
+{
+	font-size: 12px;
+	width: 250px;
+}
+.space
+{
+	height: 4px;
+}
+.textBoxLogin
+{
+	font-size: 12px;
+	width: 200px;
+}
+.loginVerticalSpace
+{
+	height: 200px;
+}
+.logOffButton
+{
+	font-weight: bold;
+}
+.loginDiv
+{
+	font-size:12px;
+}
+.formPadLeft
+{
+	padding-left:4px;
+}
+.imgToggle
+{
+	cursor:pointer;
+}

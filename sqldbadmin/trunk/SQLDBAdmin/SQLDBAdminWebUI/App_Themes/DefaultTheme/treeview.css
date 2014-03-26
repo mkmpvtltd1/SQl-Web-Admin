@@ -1,0 +1,40 @@
+.treeview
+{
+	margin-bottom: 0px;
+	width: 209px;
+	background-color: transparent;
+	font-size: 12px;
+}
+.treeviewItem
+{
+	padding-left: 2px;
+}
+
+.treeview a
+{
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.treeview a:hover
+{
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.treeview a:visited
+{
+	font-size: 12px;
+	text-decoration: none;
+}
+.treeviewLoading
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	position: fixed;
+	top: 2px;
+	left: 100px;
+	border: groove 1px gray;
+	z-index: 50;
+	background-color: #FFFFB9;
+}

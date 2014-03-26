@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Commands>
+  <Command key="AvailableDatabases" commandType="StoredProcedure">
+    sp_Databases
+  </Command>
+  <Command key="AllViews">
+    select * from sys.all_views
+  </Command>
+  <Command key="AllTables">
+    select * from sys.tables order by name
+  </Command>
+  <Command key="AllColumns">
+    select * from INFORMATION_SCHEMA.COLUMNS where table_name=?TableName
+  </Command>
+  <Command key="AllStoredProcs">
+    SELECT * FROM sys.all_objects where type='P' order by name
+  </Command>
+  <Command key="AllCLRStoredProcs">
+    SELECT * FROM sys.all_objects where type='PC' order by name
+  </Command>
+  <Command key="TableValuedFunctions">
+    SELECT * FROM sys.all_objects where type='TF' order by name
+  </Command>
+  <Command key="CLRTableValuedFunctions">
+    SELECT * FROM sys.all_objects where type='FT' order by name
+  </Command>
+  <Command key="ScalarValuedFunctions">
+    SELECT * FROM sys.all_objects where type='FN' order by name
+  </Command>  
+</Commands>

@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.eforceglobal.DBAdmin.Facades", "com.eforceglobal.DBAdmin.Facades\com.eforceglobal.DBAdmin.Facades.csproj", "{BEADC9AB-DADD-4A6F-B3C7-4A297DB9BCB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.eforceglobal.DBAdmin.Constants", "com.eforceglobal.DBAdmin.Constants\com.eforceglobal.DBAdmin.Constants.csproj", "{6FD391BB-3BC8-4EED-9A74-63D1EBDB6626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.eforceglobal.DBAdmin.Utils", "com.eforceglobal.DBAdmin.Utils\com.eforceglobal.DBAdmin.Utils.csproj", "{306D4719-3E35-4E8B-B57B-C9CFD9B7EC24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.eforceglobal.DBAdmin.DAL", "com.eforceglobal.DBAdmin.DAL\com.eforceglobal.DBAdmin.DAL.csproj", "{9B7DD0B3-777B-4F2A-AD77-C5216227A988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.eforceglobal.DBAdmin.BusinessObjects", "com.eforceglobal.DBAdmin.BusinessObjects\com.eforceglobal.DBAdmin.BusinessObjects.csproj", "{182DC410-ECD1-4DA3-A5BC-221DE53D7880}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SQLDBAdminWebUI", "SQLDBAdminWebUI\", "{F1B80BB2-3942-4929-9451-3243F7395050}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{182DC410-ECD1-4DA3-A5BC-221DE53D7880}|com.eforceglobal.DBAdmin.BusinessObjects.dll;{6FD391BB-3BC8-4EED-9A74-63D1EBDB6626}|com.eforceglobal.DBAdmin.Constants.dll;{9B7DD0B3-777B-4F2A-AD77-C5216227A988}|com.eforceglobal.DBAdmin.DAL.dll;{BEADC9AB-DADD-4A6F-B3C7-4A297DB9BCB9}|com.eforceglobal.DBAdmin.Facades.dll;{306D4719-3E35-4E8B-B57B-C9CFD9B7EC24}|com.eforceglobal.DBAdmin.Utils.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/SQLDBAdminWebUI"
+		Debug.AspNetCompiler.PhysicalPath = "SQLDBAdminWebUI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SQLDBAdminWebUI\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SQLDBAdminWebUI"
+		Release.AspNetCompiler.PhysicalPath = "SQLDBAdminWebUI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SQLDBAdminWebUI\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "29489"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEADC9AB-DADD-4A6F-B3C7-4A297DB9BCB9}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{BEADC9AB-DADD-4A6F-B3C7-4A297DB9BCB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEADC9AB-DADD-4A6F-B3C7-4A297DB9BCB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEADC9AB-DADD-4A6F-B3C7-4A297DB9BCB9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BEADC9AB-DADD-4A6F-B3C7-4A297DB9BCB9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BEADC9AB-DADD-4A6F-B3C7-4A297DB9BCB9}.Release|.NET.ActiveCfg = Release|Any CPU
+		{BEADC9AB-DADD-4A6F-B3C7-4A297DB9BCB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEADC9AB-DADD-4A6F-B3C7-4A297DB9BCB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEADC9AB-DADD-4A6F-B3C7-4A297DB9BCB9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BEADC9AB-DADD-4A6F-B3C7-4A297DB9BCB9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6FD391BB-3BC8-4EED-9A74-63D1EBDB6626}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{6FD391BB-3BC8-4EED-9A74-63D1EBDB6626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD391BB-3BC8-4EED-9A74-63D1EBDB6626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD391BB-3BC8-4EED-9A74-63D1EBDB6626}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6FD391BB-3BC8-4EED-9A74-63D1EBDB6626}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6FD391BB-3BC8-4EED-9A74-63D1EBDB6626}.Release|.NET.ActiveCfg = Release|Any CPU
+		{6FD391BB-3BC8-4EED-9A74-63D1EBDB6626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD391BB-3BC8-4EED-9A74-63D1EBDB6626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD391BB-3BC8-4EED-9A74-63D1EBDB6626}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6FD391BB-3BC8-4EED-9A74-63D1EBDB6626}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{306D4719-3E35-4E8B-B57B-C9CFD9B7EC24}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{306D4719-3E35-4E8B-B57B-C9CFD9B7EC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306D4719-3E35-4E8B-B57B-C9CFD9B7EC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306D4719-3E35-4E8B-B57B-C9CFD9B7EC24}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{306D4719-3E35-4E8B-B57B-C9CFD9B7EC24}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{306D4719-3E35-4E8B-B57B-C9CFD9B7EC24}.Release|.NET.ActiveCfg = Release|Any CPU
+		{306D4719-3E35-4E8B-B57B-C9CFD9B7EC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306D4719-3E35-4E8B-B57B-C9CFD9B7EC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{306D4719-3E35-4E8B-B57B-C9CFD9B7EC24}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{306D4719-3E35-4E8B-B57B-C9CFD9B7EC24}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9B7DD0B3-777B-4F2A-AD77-C5216227A988}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{9B7DD0B3-777B-4F2A-AD77-C5216227A988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7DD0B3-777B-4F2A-AD77-C5216227A988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7DD0B3-777B-4F2A-AD77-C5216227A988}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9B7DD0B3-777B-4F2A-AD77-C5216227A988}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9B7DD0B3-777B-4F2A-AD77-C5216227A988}.Release|.NET.ActiveCfg = Release|Any CPU
+		{9B7DD0B3-777B-4F2A-AD77-C5216227A988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7DD0B3-777B-4F2A-AD77-C5216227A988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B7DD0B3-777B-4F2A-AD77-C5216227A988}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9B7DD0B3-777B-4F2A-AD77-C5216227A988}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{182DC410-ECD1-4DA3-A5BC-221DE53D7880}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{182DC410-ECD1-4DA3-A5BC-221DE53D7880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{182DC410-ECD1-4DA3-A5BC-221DE53D7880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{182DC410-ECD1-4DA3-A5BC-221DE53D7880}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{182DC410-ECD1-4DA3-A5BC-221DE53D7880}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{182DC410-ECD1-4DA3-A5BC-221DE53D7880}.Release|.NET.ActiveCfg = Release|Any CPU
+		{182DC410-ECD1-4DA3-A5BC-221DE53D7880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{182DC410-ECD1-4DA3-A5BC-221DE53D7880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{182DC410-ECD1-4DA3-A5BC-221DE53D7880}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{182DC410-ECD1-4DA3-A5BC-221DE53D7880}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F1B80BB2-3942-4929-9451-3243F7395050}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{F1B80BB2-3942-4929-9451-3243F7395050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B80BB2-3942-4929-9451-3243F7395050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B80BB2-3942-4929-9451-3243F7395050}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F1B80BB2-3942-4929-9451-3243F7395050}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F1B80BB2-3942-4929-9451-3243F7395050}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{F1B80BB2-3942-4929-9451-3243F7395050}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B80BB2-3942-4929-9451-3243F7395050}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F1B80BB2-3942-4929-9451-3243F7395050}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F1B80BB2-3942-4929-9451-3243F7395050}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
